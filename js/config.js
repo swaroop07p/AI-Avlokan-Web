@@ -6,7 +6,7 @@ const REGISTRATION_URL = "https://www.google.com/"; // Replace with your actual 
 const LOGO_URL = "assets/images/AI_AVLOKAN_LOGO.jpeg"; // Replace with your actual logo URL
 
 // Set your master General Rules PDF URL here
-const GENERAL_RULES_URL = "assets/events/rulebook/AI_EMERGING_QUIZ.pdf"; // Replace with your actual general rules PDF URL
+const GENERAL_RULES_URL = "assets/events/rulebook/GENERAL_RULES.pdf"; // Replace with your actual general rules PDF URL
 
 document.addEventListener("DOMContentLoaded", () => {
     // Find all elements with the registration-btn class
