@@ -364,7 +364,7 @@
 }
 
 #vr-entry.is-active .lens {
-    animation-play-state: running;
+  animation-play-state: running;
 }
 
 @keyframes lensPunch {
@@ -493,11 +493,9 @@
 .progress-fill {
   width: 0%;
   height: 100%;
-  background: repeating-linear-gradient(
-    135deg,
-    #ffb14b 0 8px,
-    #ffe45b 8px 16px
-  );
+  background: repeating-linear-gradient(135deg,
+      #ffb14b 0 8px,
+      #ffe45b 8px 16px);
   box-shadow:
     0 0 10px #ffe45b,
     0 0 22px rgba(255, 228, 91, .6);

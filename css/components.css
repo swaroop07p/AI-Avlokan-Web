@@ -713,6 +713,7 @@
     display: grid;
     grid-template-columns: auto auto;
   }
+
   .general-rules-btn {
     grid-column: 1 / -1;
     justify-self: center;
@@ -2233,15 +2234,18 @@ button.success {
     overflow-wrap: break-word;
   }
 }
+
 @media (max-width: 420px) {
   .logo-text-img {
     max-width: 155px;
   }
+
   .logo-mark-img {
     width: 55px;
     height: 55px;
     flex: 0 0 35px;
   }
+
   .navbar__logo {
     gap: 6px;
   }
@@ -2510,6 +2514,7 @@ button.success {
   display: inline-block;
   margin-left: 4px;
 }
+
 @media (max-width: 500px) {
   .org-semester {
     display: block;

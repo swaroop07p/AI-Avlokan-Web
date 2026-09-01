@@ -3,7 +3,7 @@
 const REGISTRATION_URL = "https://www.google.com/"; // Replace with your actual live registration URL
 
 // Set your master logo URL here
-const LOGO_URL = "assets/images/AI_AVLOKAN_LOGO.png"; // Replace with your actual logo URL
+const LOGO_URL = "assets/images/AI_AVLOKAN_LOGO.jpeg"; // Replace with your actual logo URL
 
 // Set your master General Rules PDF URL here
 const GENERAL_RULES_URL = "assets/events/rulebook/AI_EMERGING_QUIZ.pdf"; // Replace with your actual general rules PDF URL
@@ -11,7 +11,7 @@ const GENERAL_RULES_URL = "assets/events/rulebook/AI_EMERGING_QUIZ.pdf"; // Repl
 document.addEventListener("DOMContentLoaded", () => {
     // Find all elements with the registration-btn class
     const regButtons = document.querySelectorAll('.registration-btn');
-    
+
     // Update the href attribute for each button
     regButtons.forEach(btn => {
         btn.href = REGISTRATION_URL;

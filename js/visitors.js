@@ -47,7 +47,7 @@ onSnapshot(statsDocRef, (docSnap) => {
     const data = docSnap.data();
     const totalViewsEl = document.getElementById("totalViews");
     const uniqueVisitorsEl = document.getElementById("uniqueVisitors");
-    
+
     if (totalViewsEl) {
       totalViewsEl.textContent = (data.totalViews || 0).toLocaleString();
     }

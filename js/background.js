@@ -1,8 +1,8 @@
 // Deep-Space Particle Field Background
-(function() {
+(function () {
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
-  
+
   // Style and inject canvas
   canvas.id = 'global-starfield';
   canvas.style.position = 'fixed';
@@ -46,15 +46,15 @@
   function initParticles() {
     particles = [];
     const particleCount = Math.floor((width * height) / 1000); // 10x Density based on screen size
-    
+
     for (let i = 0; i < particleCount; i++) {
       // Exploding from bottom-left corner
-      const x = Math.pow(Math.random(), 3) * width; 
+      const x = Math.pow(Math.random(), 3) * width;
       const y = height - Math.pow(Math.random(), 3) * height;
-      
+
       const size = Math.random() > 0.98 ? Math.random() * 2.5 + 1.5 : Math.random() * 1.2 + 0.3;
       const colorIndex = Math.floor(Math.random() * 5);
-      
+
       particles.push({
         x, y, size, colorIndex,
         baseAlpha: Math.random() * 0.5 + 0.1,
@@ -69,11 +69,11 @@
 
   function spawnShootingStar() {
     if (prefersReducedMotion || document.visibilityState === 'hidden') return;
-    
+
     // Start from bottom-left region
     const startY = height - (Math.random() * height * 0.4);
     const startX = Math.random() * width * 0.4;
-    
+
     shootingStars.push({
       x: startX,
       y: startY,
@@ -95,18 +95,18 @@
     }
 
     ctx.clearRect(0, 0, width, height);
-    
+
     // Draw particles
     const time = Date.now();
     const currentColors = getThemeColors();
     particles.forEach(p => {
       let alpha = p.baseAlpha;
-      
+
       if (!prefersReducedMotion) {
         // Move particles to create a floating space atmosphere
         p.x += p.vx;
         p.y += p.vy;
-        
+
         // Wrap around screen
         if (p.x < -10) p.x = width + 10;
         if (p.x > width + 10) p.x = -10;
@@ -137,7 +137,7 @@
       ctx.shadowBlur = 0;
       for (let i = shootingStars.length - 1; i >= 0; i--) {
         const star = shootingStars[i];
-        
+
         const endX = star.x - Math.cos(star.angle) * star.length;
         const endY = star.y - Math.sin(star.angle) * star.length;
 

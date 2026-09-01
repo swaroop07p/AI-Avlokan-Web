@@ -7,21 +7,21 @@ let currentZoom = null;
 let userZoom = 1;
 let manualZoom = false;
 
-window.openPDF = async function(pdfUrl) {
+window.openPDF = async function (pdfUrl) {
   const viewer = document.getElementById("pdfViewer");
   const loading = document.getElementById("pdfLoading");
   const error = document.getElementById("pdfError");
   const downloadBtn = document.getElementById("downloadBtn");
-  
+
   if (!viewer) return;
 
   downloadBtn.href = pdfUrl;
-  
+
   viewer.classList.add("active");
   document.body.style.overflow = "hidden";
   loading.style.display = "flex";
   error.classList.remove("active");
-  
+
   // Reset state
   pdfDoc = null;
   manualZoom = false;
@@ -39,7 +39,7 @@ window.openPDF = async function(pdfUrl) {
   }
 };
 
-window.closePDF = function() {
+window.closePDF = function () {
   const viewer = document.getElementById("pdfViewer");
   if (viewer) {
     viewer.classList.remove("active");
@@ -59,7 +59,7 @@ async function getFitScale() {
 async function renderAllPages() {
   const pdfPages = document.getElementById("pdfPages");
   const zoomLevel = document.getElementById("zoomLevel");
-  
+
   pdfPages.innerHTML = "";
 
   if (!manualZoom) {
@@ -107,7 +107,7 @@ async function renderPage(pageNum) {
   document.getElementById("pdfPages").appendChild(canvas);
 }
 
-window.zoomIn = async function() {
+window.zoomIn = async function () {
   manualZoom = true;
   if (!userZoom || userZoom === 1) {
     userZoom = currentZoom;
@@ -121,7 +121,7 @@ window.zoomIn = async function() {
   await renderAllPages();
 };
 
-window.zoomOut = async function() {
+window.zoomOut = async function () {
   manualZoom = true;
   if (!userZoom || userZoom === 1) {
     userZoom = currentZoom;
@@ -135,7 +135,7 @@ window.zoomOut = async function() {
   await renderAllPages();
 };
 
-window.fitToScreen = async function() {
+window.fitToScreen = async function () {
   manualZoom = false;
   userZoom = 1;
   currentZoom = await getFitScale();
@@ -143,7 +143,7 @@ window.fitToScreen = async function() {
   await renderAllPages();
 };
 
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
   const viewer = document.getElementById("pdfViewer");
   if (event.key === "Escape" && viewer && viewer.classList.contains("active")) {
     closePDF();
@@ -151,9 +151,9 @@ document.addEventListener("keydown", function(event) {
 });
 
 let resizeTimer;
-window.addEventListener("resize", function() {
+window.addEventListener("resize", function () {
   clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(async function() {
+  resizeTimer = setTimeout(async function () {
     const viewer = document.getElementById("pdfViewer");
     if (viewer && viewer.classList.contains("active") && !manualZoom) {
       await renderAllPages();
