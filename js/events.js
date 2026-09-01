@@ -68,7 +68,7 @@ const EVENTS = [
     shortCode: "PROMPT-X",
     accentColor: "#27f727ff",
     tagline: "Prompt Under Pressure.",
-    poster: "assets/events/posters/AI_ESCAPE_QUEST.png",
+    poster: "assets/events/posters/NEURAL_CLASH.png",
     description: "Your prompts are your weapons. Think creatively, engineer precisely, and adapt quickly as you battle through a high-speed test of prompt engineering.",
     timings: "11:35 AM – 12:50 PM",
     prize: "₹6,000",
@@ -81,7 +81,7 @@ const EVENTS = [
       { name: "Vinay Raj V (Semister VII)", phone: "+91 89714 35054" },
       { name: "Suchet H S (Semister VII)", phone: "+91 82968 91958" }
     ],
-    ruleBook: "/AI_ESCAPE_QUEST.pdf"
+    ruleBook: "assets/events/rulebook/NEURAL_CLASH.pdf"
   },
   {
     id: "evt-05",
