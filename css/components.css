@@ -911,6 +911,10 @@
   align-items: center;
 }
 
+.about-content p {
+  text-align: justify;
+}
+
 .about-chips {
   display: flex;
   flex-wrap: wrap;
@@ -946,6 +950,18 @@
 .featured-event-grid {
   grid-template-columns: minmax(0, 500px);
   justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .featured-event-grid {
+    grid-template-columns: repeat(3, minmax(0, 360px));
+  }
+}
+
+@media (max-width: 991px) {
+  .featured-event-grid > *:nth-child(n+2) {
+    display: none;
+  }
 }
 
 .all-events-grid {

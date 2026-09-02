@@ -15,8 +15,8 @@ const EVENTS = [
     featured: true,
     image: "assets/events/details_image/AI_ML_Quiz.jpeg",
     organizers: [
-      { name: "Sinchana K (Semister VII)", phone: "+91 73492 42156" },
-      { name: "Amrutha K S (Semister VII)", phone: "+91 95152 91570" }
+      { name: "Sinchana K (Semester VII)", phone: "+91 73492 42156" },
+      { name: "Amrutha K S (Semester VII)", phone: "+91 95152 91570" }
     ],
     ruleBook: "assets/events/rulebook/AI_EMERGING_QUIZ.pdf"
   },
@@ -33,11 +33,11 @@ const EVENTS = [
     date: "29 Sept 2026",
     eventCategory: "Technical",
     teamSize: "2 Members per Team",
-    featured: false,
+    featured: true,
     image: "assets/events/details_image/AI_Escape.jpeg",
     organizers: [
-      { name: "Swaroop P (Semister V)", phone: "+91 86185 07413" },
-      { name: "Sathvik U S (Semister V)", phone: "+91 63624 94258" }
+      { name: "Swaroop P (Semester V)", phone: "+91 86185 07413" },
+      { name: "Sathvik U S (Semester V)", phone: "+91 63624 94258" }
     ],
     ruleBook: "assets/events/rulebook/AI_ESCAPE_QUEST.pdf"
   },
@@ -54,11 +54,11 @@ const EVENTS = [
     date: "29 Sept 2026",
     eventCategory: "Technical",
     teamSize: "2 Members per Team",
-    featured: false,
+    featured: true,
     image: "assets/events/details_image/No_Code_ML.jpeg",
     organizers: [
-      { name: "Devika N D (Semister VII)", phone: "+91 80502 83353" },
-      { name: "Nithin G J (Semister VII)", phone: "+91 84315 99031" }
+      { name: "Devika N D (Semester VII)", phone: "+91 80502 83353" },
+      { name: "Nithin G J (Semester VII)", phone: "+91 84315 99031" }
     ],
     ruleBook: "assets/events/rulebook/ML_FORGE.pdf"
   },
@@ -78,8 +78,8 @@ const EVENTS = [
     featured: false,
     image: "assets/events/details_image/PromptX.jpeg",
     organizers: [
-      { name: "Vinay Raj V (Semister VII)", phone: "+91 89714 35054" },
-      { name: "Suchet H S (Semister VII)", phone: "+91 82968 91958" }
+      { name: "Vinay Raj V (Semester VII)", phone: "+91 89714 35054" },
+      { name: "Suchet H S (Semester VII)", phone: "+91 82968 91958" }
     ],
     ruleBook: "assets/events/rulebook/NEURAL_CLASH.pdf"
   },
@@ -99,8 +99,8 @@ const EVENTS = [
     featured: false,
     image: "assets/events/details_image/AI_Visual.jpeg",
     organizers: [
-      { name: "Shreya R Chittaragi (Semister VII)", phone: "+91 77953 65337" },
-      { name: "Kaveri (Semister VII)", phone: "+91 72597 41544" }
+      { name: "Shreya R Chittaragi (Semester VII)", phone: "+91 77953 65337" },
+      { name: "Kaveri (Semester VII)", phone: "+91 72597 41544" }
     ],
     ruleBook: "assets/events/rulebook/VISUAL_CHALLENGE.pdf"
   },
@@ -120,8 +120,8 @@ const EVENTS = [
     featured: false,
     image: "assets/events/details_image/Vision_Hunter.jpeg",
     organizers: [
-      { name: "Prajna n kulal (Semister VII)", phone: "+91 80953 74237" },
-      { name: "Yashaswini S Gowda (Semister VII)", phone: "+91 95357 97006" }
+      { name: "Prajna n kulal (Semester VII)", phone: "+91 80953 74237" },
+      { name: "Yashaswini S Gowda (Semester VII)", phone: "+91 95357 97006" }
     ],
     ruleBook: "assets/events/rulebook/RECALL_REACTOR.pdf"
   },
@@ -141,8 +141,8 @@ const EVENTS = [
     featured: false,
     image: "assets/events/details_image/AI_AD.jpeg",
     organizers: [
-      { name: "Rajeshwari H M (Semister VII)", phone: "+91 83174 89509" },
-      { name: "Vathsala S H (Semister VII)", phone: "+91 77609 17458" }
+      { name: "Rajeshwari H M (Semester VII)", phone: "+91 83174 89509" },
+      { name: "Vathsala S H (Semester VII)", phone: "+91 77609 17458" }
     ],
     ruleBook: "assets/events/rulebook/AI_AD.pdf"
   },
@@ -162,8 +162,8 @@ const EVENTS = [
     featured: false,
     image: "assets/events/details_image/AI_Charades.jpeg",
     organizers: [
-      { name: "Anagha C (Semister VII)", phone: "+91 70224 43442" },
-      { name: "Jeevan H G (Semister VII)", phone: "+91 97316 41555" }
+      { name: "Anagha C (Semester VII)", phone: "+91 70224 43442" },
+      { name: "Jeevan H G (Semester VII)", phone: "+91 97316 41555" }
     ],
     ruleBook: "assets/events/rulebook/AI_CHARADES.pdf"
   },
