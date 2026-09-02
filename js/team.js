@@ -100,7 +100,7 @@ const TEAM = [
     role: "Treasurer",
     department: "Dept of AIML",
     category: "student",
-    photo: "assets/teams/students/vinaynv.jpg"
+    photo: "assets/teams/students/vinaynv.jpeg"
   },
   {
     id: "mem-13",
@@ -132,7 +132,7 @@ const TEAM = [
     role: "Web Master",
     department: "Dept of AIML",
     category: "student",
-    photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775058139/Shreyas_A_-_Shreyas_A_oopovg.jpg"
+    photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1788337853/WhatsApp_Image_2026-09-02_at_1.55.59_PM_houkkw.jpg"
   },
   {
     id: "mem-17",
@@ -256,14 +256,6 @@ const TEAM = [
   },
   {
     id: "mem-32",
-    name: "Kaveri",
-    role: "Event Manager",
-    department: "Dept of AIML",
-    category: "student",
-    photo: "assets/teams/students/kaveri.jpg"
-  },
-  {
-    id: "mem-33",
     name: "Jeevan H G",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -271,7 +263,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775060253/WhatsApp_Image_2026-04-01_at_9.44.56_PM_gjia68.jpg"
   },
   {
-    id: "mem-34",
+    id: "mem-33",
     name: "Kshamatha T",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -279,7 +271,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775223154/IMG_20260401_191513_-_Kshamatha_T_ytkqy8.jpg"
   },
   {
-    id: "mem-35",
+    id: "mem-34",
     name: "Nithin G J",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -287,7 +279,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775322323/Nithin_G_J_-_Nithin_G_J_rpuu1v.jpg"
   },
   {
-    id: "mem-36",
+    id: "mem-35",
     name: "Suchet H S",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -295,7 +287,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775322323/WhatsApp_Image_2026-01-13_at_6.49.19_PM_-_Suchet_HS_agq38m.jpg"
   },
   {
-    id: "mem-37",
+    id: "mem-36",
     name: "komal",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -303,7 +295,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775318606/komal_pic_-_Komal_rtph9t.jpg"
   },
   {
-    id: "mem-38",
+    id: "mem-37",
     name: "Yashaswini S Gowda",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -311,7 +303,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1776964043/WhatsApp_Image_2026-04-23_at_10.36.59_PM_nflcyp.jpg"
   },
   {
-    id: "mem-39",
+    id: "mem-38",
     name: "Aditya",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -319,7 +311,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1776963718/WhatsApp_Image_2026-04-23_at_10.21.19_PM_prcpub.jpg"
   },
   {
-    id: "mem-40",
+    id: "mem-39",
     name: "Mohammed Ibrahim",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -327,7 +319,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1776963718/WhatsApp_Image_2026-04-23_at_10.21.18_PM_lcj9da.jpg"
   },
   {
-    id: "mem-41",
+    id: "mem-40",
     name: "Prajna n kulal",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -335,7 +327,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1776963882/WhatsApp_Image_2026-04-23_at_10.34.17_PM_vl36gt.jpg"
   },
   {
-    id: "mem-42",
+    id: "mem-41",
     name: "Amogha V Raikar",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -343,7 +335,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775058137/Screenshot_20260102_110339_Gallery_-_Free_fire_Boy_w8rqwp.jpg"
   },
   {
-    id: "mem-43",
+    id: "mem-42",
     name: "Manaswini Kommaraju",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -351,7 +343,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775058136/manaswini_-_Manaswini_K_vgl0kf.jpg"
   },
   {
-    id: "mem-44",
+    id: "mem-43",
     name: "Pannaga H N",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -359,7 +351,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775058137/PANNAGA_H_N_1_-_Pannaga_Nagaraj_m3kkoi.jpg"
   },
   {
-    id: "mem-45",
+    id: "mem-44",
     name: "Kushal K Chavan",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -367,7 +359,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775058129/IMG-20260401-WA0004_uyrlyt.jpg"
   },
   {
-    id: "mem-46",
+    id: "mem-45",
     name: "Shishir S R",
     role: "Event Manager",
     department: "Dept of AIML",
@@ -375,7 +367,7 @@ const TEAM = [
     photo: "https://res.cloudinary.com/dsojrrb9j/image/upload/v1775058130/IMG-20260401-WA0007_-_Shishir_SR_rhfcbp.jpg"
   },
   {
-    id: "mem-47",
+    id: "mem-46",
     name: "M S Ehthesham",
     role: "Event Manager",
     department: "Dept of AIML",
