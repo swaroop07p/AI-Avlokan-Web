@@ -11,7 +11,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: true,
     image: "assets/events/details_image/AI_ML_Quiz.jpeg",
     organizers: [
@@ -32,7 +32,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/AI_Escape.jpeg",
     organizers: [
@@ -53,7 +53,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/No_Code_ML.jpeg",
     organizers: [
@@ -74,7 +74,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/PromptX.jpeg",
     organizers: [
@@ -95,7 +95,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/AI_Visual.jpeg",
     organizers: [
@@ -116,7 +116,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/Vision_Hunter.jpeg",
     organizers: [
@@ -137,7 +137,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/AI_AD.jpeg",
     organizers: [
@@ -158,7 +158,7 @@ const EVENTS = [
     prize: "₹6,000",
     date: "29 Sept 2026",
     eventCategory: "Technical",
-    teamSize: "1-2 Members",
+    teamSize: "2 Members per Team",
     featured: false,
     image: "assets/events/details_image/AI_Charades.jpeg",
     organizers: [

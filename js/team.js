@@ -19,7 +19,7 @@ const TEAM = [
   },
   {
     id: "mem-03",
-    name: "Mr. Sayyed Johar",
+    name: "Dr. Sayyed Johar",
     role: "Assistant Professor",
     department: "Dept of AIML",
     category: "faculty",
@@ -28,7 +28,7 @@ const TEAM = [
   },
   {
     id: "mem-04",
-    name: "Mr. Ranjan V",
+    name: "Dr. Ranjan V",
     role: "Assistant Prof. and team Coordinator",
     department: "Dept of AIML",
     category: "faculty",
@@ -68,7 +68,7 @@ const TEAM = [
     role: "Chairman",
     department: "Dept. of AIML",
     category: "student",
-    photo: "assets/teams/students/vidhaat.jpg"
+    photo: "assets/teams/students/vidhaat.jpeg"
   },
   {
     id: "mem-09",
